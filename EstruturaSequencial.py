@@ -171,3 +171,14 @@ Velocidade = float(input("informe a velociadade da internet em mbs/s "))
 Dowload = Arquivo/Velocidade
 print("o tempo estimado dop dowload e de: ", Dowload)
 '''
+def Par_Impar(Resultado):
+    Calculo = 0
+    Calculo = Resultado // 2
+
+    if(Calculo == 0):
+        print("par")
+    elif(Calculo != 0):
+        print("impar")
+
+Resultado = 25
+Par_Impar(Resultado)
